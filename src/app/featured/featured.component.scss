@@ -1,0 +1,53 @@
+@import '../nav/nav.component';
+
+$featured-height: 275px;
+$featured-bg-color: #333333;
+
+$featured-text-font: 'Fjalla One', sans-serif;
+$featured-text-title-size: 35px;
+$featured-text-stats-size: 12px;
+$featured-text-color: #ffffff;
+
+$featured-padding: 25px;
+
+.featured {
+  display: block;
+  position: fixed;
+  top: $nav-bar-height + 1px;
+  right: 0px;
+  left: 0px;
+  padding: 0;
+  height: $featured-height;
+  background-color: $featured-bg-color;
+}
+
+.featured-img {
+  background-image: url(https://farm9.staticflickr.com/8689/17077383821_4a2202856c_z_d.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  text-shadow: 2px 2px #000000;
+}
+
+.featured-border {
+  background-color: #ffffff;
+}
+
+.featured-text {
+  width: 100%;
+  text-align: left;
+  font-family: $featured-text-font;
+  color: $featured-text-color;
+  padding: 0 $featured-padding 0 $featured-padding;
+
+  h1 {
+    font-size: $featured-text-title-size;
+    line-height: 0em;
+    padding-top: $featured-padding;
+  }
+
+  h4 {
+    font-size: $featured-text-stats-size;
+    font-weight: 500;
+  }
+}

@@ -8,12 +8,14 @@ import { environment } from '../environments/environment';
 
 import { NavComponent } from './nav/nav.component';
 import { NavItemComponent } from './nav-item/nav-item.component';
+import { FeaturedComponent } from './featured/featured.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    NavItemComponent
+    NavItemComponent,
+    FeaturedComponent
   ],
   imports: [
     BrowserModule,

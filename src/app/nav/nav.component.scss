@@ -3,11 +3,11 @@
 $nav-bar-height: 32px;
 
 $nav-bar-bg-color: #d2d2d2;
-$nav-item-color: #222222;
+$nav-item-color: #333333;
 $nav-item-hover-color: #ff4136;
 
 @if $night {
-  $nav-bar-bg-color: #222222;
+  $nav-bar-bg-color: #333333;
   $nav-item-color: #ffffff;
   $nav-item-hover-color: #20df03;
 }
