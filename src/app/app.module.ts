@@ -7,7 +7,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
 import { NavComponent } from './nav/nav.component';
-import { NavItemComponent } from './nav-icon/nav-item.component';
+import { NavItemComponent } from './nav-item/nav-item.component';
 
 @NgModule({
   declarations: [
