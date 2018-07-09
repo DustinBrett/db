@@ -1,0 +1,24 @@
+@import '../../styles';
+
+$nav-bar-height: 32px;
+
+$nav-bar-bg-color: #d2d2d2;
+$nav-item-color: #222222;
+$nav-item-hover-color: #ff4136;
+
+@if $night {
+  $nav-bar-bg-color: #222222;
+  $nav-item-color: #ffffff;
+  $nav-item-hover-color: #20df03;
+}
+
+.nav-bar {
+  display: block;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  padding: 0;
+  height: $nav-bar-height;
+  background-color: $nav-bar-bg-color;
+}

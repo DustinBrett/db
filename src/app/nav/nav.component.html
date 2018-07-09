@@ -1,0 +1,7 @@
+<div class="nav-bar" fxLayout="row" fxLayoutAlign="space-evenly center">
+  <app-nav-item
+    *ngFor="let navItem of navItems"
+    [name]="navItem.name"
+    [icon]="navItem.icon"
+  ></app-nav-item>
+</div>

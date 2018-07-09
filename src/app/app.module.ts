@@ -6,9 +6,14 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
+import { NavComponent } from './nav/nav.component';
+import { NavItemComponent } from './nav-icon/nav-item.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent,
+    NavItemComponent
   ],
   imports: [
     BrowserModule,
