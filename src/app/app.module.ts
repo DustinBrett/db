@@ -9,13 +9,15 @@ import { environment } from '../environments/environment';
 import { NavComponent } from './nav/nav.component';
 import { NavItemComponent } from './nav-item/nav-item.component';
 import { FeaturedComponent } from './featured/featured.component';
+import { BackgroundComponent } from './background/background.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     NavItemComponent,
-    FeaturedComponent
+    FeaturedComponent,
+    BackgroundComponent
   ],
   imports: [
     BrowserModule,
